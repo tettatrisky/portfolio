@@ -3,7 +3,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        sans: ["Source Sans Pro"],
+        mono: ["IBM Plex Mono"],
+        bebas: ["Bebas Neue"]
+      }
+    },
   },
   plugins: [],
 }
