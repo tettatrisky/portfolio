@@ -23,7 +23,7 @@ export default function Navbar() {
 
             {/* Button */}
             <div className="w-3/12">
-              <Button/>
+              <Button>Contact</Button>
             </div>
           </div>
         </nav>
